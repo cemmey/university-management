@@ -1,0 +1,64 @@
+[project]
+name = 'university-management'
+description = ''
+authors = []
+telemetry = true
+cache_dir = '.\.cache'
+requirements = []
+[contracts.admission-management]
+path = 'contracts/admission-management.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.certificate-transcript-issuance]
+path = 'contracts/certificate-transcript-issuance.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.course-curriculum-management]
+path = 'contracts/course-curriculum-management.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.examination-grading-management]
+path = 'contracts/examination-grading-management.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.fee-payment-management]
+path = 'contracts/fee-payment-management.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.library-resource-management]
+path = 'contracts/library-resource-management.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.recruitment-staff-management]
+path = 'contracts/recruitment-staff-management.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.student-management]
+path = 'contracts/student-management.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.university-core]
+path = 'contracts/university-core.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.university-governance]
+path = 'contracts/university-governance.clar'
+clarity_version = 3
+epoch = 3.1
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
