@@ -124,7 +124,7 @@
         (map 
             (lambda (course-id) 
                 {course-id: course-id})
-            (list u1 u2 u3 u4 u5 u6 u7 u8 u9 u10))))  ;; Assuming max 10 courses, adjust as needed
+            (list u1 u2 u3 u4 u5 u6 u7 u8 u9 u10))))  ;; Maximum of 10 courses
 
 (define-read-only (get-certificates (student-id uint))
     (filter 
@@ -133,4 +133,4 @@
         (map 
             (lambda (certificate-id) 
                 {certificate-id: certificate-id})
-            (list u1 u2 u3 u4 u5))))  ;; Assuming max 5 certificates, adjust as needed
+            (list u1 u2 u3 u4 u5))))  ;; Maximum of 5 Certificates
