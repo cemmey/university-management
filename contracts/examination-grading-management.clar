@@ -128,7 +128,6 @@
     (begin
         (asserts! (is-eq tx-sender CONTRACT_OWNER) ERR_UNAUTHORIZED)
         
-        ;; Assuming there's a way to notify students or a separate system for this. 
         ;; Here, we just update exam status to completed.
         (ok (map-set exams
             {exam-id: exam-id}

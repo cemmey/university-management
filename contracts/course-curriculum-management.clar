@@ -15,7 +15,7 @@
         name: (string-ascii 50),
         description: (string-ascii 200),
         credits: uint,
-        prerequisites: (list 5 uint) ;; Assuming max 5 prerequisites per course
+        prerequisites: (list 5 uint) ;; Maximum of prerequisites per course
     }
 )
 
